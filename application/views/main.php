@@ -1,7 +1,7 @@
 		            <!-- Carousel Start -->
             <div class="header-carousel owl-carousel">
                 <div class="header-carousel-item">
-                    <img src="<?php echo base_url(); ?>assets/img/carousel1.png" class="img-fluid w-100" alt="Image">
+                    <img src="<?php echo base_url(); ?>assets/img/carousel1.PNG" class="img-fluid w-100" alt="Image">
                     <div class="carousel-caption">
                         <div class="carousel-caption-content p-3">
                             <h1 class="display text-capitalize text-white mb-4">PENERIMAAN SANTRI BARU (PSB)</h1>
@@ -12,7 +12,7 @@
                     </div>
                 </div>
 				<div class="header-carousel-item">
-                    <img src="<?php echo base_url(); ?>assets/img/carousel2.png" class="img-fluid w-100" alt="Image">
+                    <img src="<?php echo base_url(); ?>assets/img/carousel2.PNG" class="img-fluid w-100" alt="Image">
                     <div class="carousel-caption">
                         <div class="carousel-caption-content p-3">
                             <h1 class="display text-capitalize text-white mb-4">PONDOK PESANTREN DARUSSALAMAH</h1>
@@ -88,7 +88,7 @@
                             <div class="blog-wrap-grid">
 
                                 <div class="blog-thumb">
-                                    <a href=""><img data-src="" class="img-fluid ls-is-cached lazyloaded" alt="" style="height: 200px;min-height: 200px;max-height: 200px;object-fit: cover;width: 100%" src="<?php echo base_url(); ?>assets/img/hadroh.png"></a>
+                                    <a href=""><img data-src="" class="img-fluid ls-is-cached lazyloaded" alt="" style="height: 200px;min-height: 200px;max-height: 200px;object-fit: cover;width: 100%" src="<?php echo base_url(); ?>assets/img/hadroh.PNG"></a>
                                 </div>
 
                                 <div class="blog-info">
@@ -109,7 +109,7 @@
                             <div class="blog-wrap-grid">
 
                                 <div class="blog-thumb">
-                                    <a href=""><img data-src="" class="img-fluid ls-is-cached lazyloaded" alt="" style="height: 200px;min-height: 200px;max-height: 200px;object-fit: cover;width: 100%" src="<?php echo base_url(); ?>assets/img/hadroh.png"></a>
+                                    <a href=""><img data-src="" class="img-fluid ls-is-cached lazyloaded" alt="" style="height: 200px;min-height: 200px;max-height: 200px;object-fit: cover;width: 100%" src="<?php echo base_url(); ?>assets/img/hadroh.PNG"></a>
                                 </div>
 
                                 <div class="blog-info">
@@ -130,7 +130,7 @@
                             <div class="blog-wrap-grid">
 
                                 <div class="blog-thumb">
-                                    <a href=""><img data-src="" class="img-fluid ls-is-cached lazyloaded" alt="" style="height: 200px;min-height: 200px;max-height: 200px;object-fit: cover;width: 100%" src="<?php echo base_url(); ?>assets/img/hadroh.png"></a>
+                                    <a href=""><img data-src="" class="img-fluid ls-is-cached lazyloaded" alt="" style="height: 200px;min-height: 200px;max-height: 200px;object-fit: cover;width: 100%" src="<?php echo base_url(); ?>assets/img/hadroh.PNG"></a>
                                 </div>
 
                                 <div class="blog-info">
@@ -151,7 +151,7 @@
                             <div class="blog-wrap-grid">
 
                                 <div class="blog-thumb">
-                                    <a href=""><img data-src="" class="img-fluid ls-is-cached lazyloaded" alt="" style="height: 200px;min-height: 200px;max-height: 200px;object-fit: cover;width: 100%" src="<?php echo base_url(); ?>assets/img/hadroh.png"></a>
+                                    <a href=""><img data-src="" class="img-fluid ls-is-cached lazyloaded" alt="" style="height: 200px;min-height: 200px;max-height: 200px;object-fit: cover;width: 100%" src="<?php echo base_url(); ?>assets/img/hadroh.PNG"></a>
                                 </div>
 
                                 <div class="blog-info">
@@ -172,7 +172,7 @@
                             <div class="blog-wrap-grid">
 
                                 <div class="blog-thumb">
-                                    <a href=""><img data-src="" class="img-fluid ls-is-cached lazyloaded" alt="" style="height: 200px;min-height: 200px;max-height: 200px;object-fit: cover;width: 100%" src="<?php echo base_url(); ?>assets/img/hadroh.png"></a>
+                                    <a href=""><img data-src="" class="img-fluid ls-is-cached lazyloaded" alt="" style="height: 200px;min-height: 200px;max-height: 200px;object-fit: cover;width: 100%" src="<?php echo base_url(); ?>assets/img/hadroh.PNG"></a>
                                 </div>
 
                                 <div class="blog-info">
@@ -193,7 +193,7 @@
                             <div class="blog-wrap-grid">
 
                                 <div class="blog-thumb">
-                                    <a href=""><img data-src="" class="img-fluid ls-is-cached lazyloaded" alt="" style="height: 200px;min-height: 200px;max-height: 200px;object-fit: cover;width: 100%" src="<?php echo base_url(); ?>assets/img/hadroh.png"></a>
+                                    <a href=""><img data-src="" class="img-fluid ls-is-cached lazyloaded" alt="" style="height: 200px;min-height: 200px;max-height: 200px;object-fit: cover;width: 100%" src="<?php echo base_url(); ?>assets/img/hadroh.PNG"></a>
                                 </div>
 
                                 <div class="blog-info">
@@ -227,7 +227,7 @@
 						<div class="col-md-6 col-lg-4 col-xl-3 wow slideInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: slideInUp;">
 							<div class="blog-item bg-light rounded overflow-hidden">
 								<div class="blog-img position-relative overflow-hidden py-3 px-3">
-									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.png" alt="">
+									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.PNG" alt="">
 									<a class="eskul position-absolute top-0 start-0 text-white py-2 px-4" href="">Eskul</a>
 								</div>
 								<div class="text-center">
@@ -238,7 +238,7 @@
 						<div class="col-md-6 col-lg-4 col-xl-3 wow slideInUp" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: slideInUp;">
 							<div class="blog-item bg-light rounded overflow-hidden">
 								<div class="blog-img position-relative overflow-hidden py-3 px-3">
-									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.png" alt="">
+									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.PNG" alt="">
 									<a class="eskul position-absolute top-0 start-0 text-white py-2 px-4" href="">Eskul</a>
 								</div>
 								<div class="text-center">
@@ -249,7 +249,7 @@
 						<div class="col-md-6 col-lg-4 col-xl-3 wow slideInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: slideInUp;">
 							<div class="blog-item bg-light rounded overflow-hidden">
 								<div class="blog-img position-relative overflow-hidden py-3 px-3">
-									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.png" alt="">
+									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.PNG" alt="">
 									<a class="eskul position-absolute top-0 start-0 text-white py-2 px-4" href="">Eskul</a>
 								</div>
 								<div class="text-center">
@@ -260,7 +260,7 @@
 						<div class="col-md-6 col-lg-4 col-xl-3 wow slideInUp" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: slideInUp;">
 							<div class="blog-item bg-light rounded overflow-hidden">
 								<div class="blog-img position-relative overflow-hidden py-3 px-3">
-									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.png" alt="">
+									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.PNG" alt="">
 									<a class="eskul position-absolute top-0 start-0 text-white py-2 px-4" href="">Eskul</a>
 								</div>
 								<div class="text-center">
@@ -271,7 +271,7 @@
 						<div class="col-md-6 col-lg-4 col-xl-3 wow slideInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: slideInUp;">
 							<div class="blog-item bg-light rounded overflow-hidden">
 								<div class="blog-img position-relative overflow-hidden py-3 px-3">
-									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/hadroh.png" alt="">
+									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/hadroh.PNG" alt="">
 									<a class="eskul position-absolute top-0 start-0 text-white py-2 px-4" href="">Eskul</a>
 								</div>
 								<div class="text-center">
@@ -282,7 +282,7 @@
 						<div class="col-md-6 col-lg-4 col-xl-3 wow slideInUp" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: slideInUp;">
 							<div class="blog-item bg-light rounded overflow-hidden">
 								<div class="blog-img position-relative overflow-hidden py-3 px-3">
-									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/hadroh.png" alt="">
+									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/hadroh.PNG" alt="">
 									<a class="eskul position-absolute top-0 start-0 text-white py-2 px-4" href="">Eskul</a>
 								</div>
 								<div class="text-center">
@@ -293,7 +293,7 @@
 						<div class="col-md-6 col-lg-4 col-xl-3 wow slideInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: slideInUp;">
 							<div class="blog-item bg-light rounded overflow-hidden">
 								<div class="blog-img position-relative overflow-hidden py-3 px-3">
-									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/hadroh.png" alt="">
+									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/hadroh.PNG" alt="">
 									<a class="eskul position-absolute top-0 start-0 text-white py-2 px-4" href="">Eskul</a>
 								</div>
 								<div class="text-center">
@@ -304,7 +304,7 @@
 						<div class="col-md-6 col-lg-4 col-xl-3 wow slideInUp" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: slideInUp;">
 							<div class="blog-item bg-light rounded overflow-hidden">
 								<div class="blog-img position-relative overflow-hidden py-3 px-3">
-									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/hadroh.png" alt="">
+									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/hadroh.PNG" alt="">
 									<a class="eskul position-absolute top-0 start-0 text-white py-2 px-4" href="">Eskul</a>
 								</div>
 								<div class="text-center">

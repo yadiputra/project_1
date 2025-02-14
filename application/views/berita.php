@@ -17,7 +17,7 @@
                         <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
                             <div class="blog-item bg-light rounded overflow-hidden">
                                 <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.png" alt="">
+                                    <img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.PNG" alt="">
                                 </div>
                                 <div class="p-4">
                                     <div class="d-flex mb-3">
@@ -33,7 +33,7 @@
                         <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: slideInUp;">
                             <div class="blog-item bg-light rounded overflow-hidden">
                                 <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.png" alt="">
+                                    <img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.PNG" alt="">
                                 </div>
                                 <div class="p-4">
                                     <div class="d-flex mb-3">
@@ -49,7 +49,7 @@
                         <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
                             <div class="blog-item bg-light rounded overflow-hidden">
                                 <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.png" alt="">
+                                    <img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.PNG" alt="">
 								</div>
                                 <div class="p-4">
                                     <div class="d-flex mb-3">
@@ -65,7 +65,7 @@
                         <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: slideInUp;">
                             <div class="blog-item bg-light rounded overflow-hidden">
                                 <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.png" alt="">
+                                    <img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.PNG" alt="">
                                  </div>
                                 <div class="p-4">
                                     <div class="d-flex mb-3">
@@ -81,7 +81,7 @@
                         <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
                             <div class="blog-item bg-light rounded overflow-hidden">
                                 <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.png" alt="">
+                                    <img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.PNG" alt="">
                                 </div>
                                 <div class="p-4">
                                     <div class="d-flex mb-3">
@@ -97,7 +97,7 @@
                         <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
                             <div class="blog-item bg-light rounded overflow-hidden">
                                 <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.png" alt="">
+                                    <img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.PNG" alt="">
                                 </div>
                                 <div class="p-4">
                                     <div class="d-flex mb-3">
