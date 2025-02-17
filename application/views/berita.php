@@ -14,102 +14,35 @@
 			</div>
                 <div class="col-lg-8">
                     <div class="row">
-                        <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
-                            <div class="blog-item bg-light rounded overflow-hidden">
-                                <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.PNG" alt="">
+					<?php foreach ($berita as $row){
+					echo "
+						<div class='col-lg-6 col-md-12'>
+						<div class='blog-wrap-grid'>
+
+							<div class='blog-thumb'>
+								<a href='".base_url()."berita/detail/".$row['seo']."'><img data-src='' class='img-fluid ls-is-cached lazyloaded' alt='' style='height: 250px;min-height: 250px;max-height: 250px;width: 100%' src='".base_url()."assets/img/".$row['img']."'></a>
+							</div>
+
+							<div class='blog-info'>
+								<div class='d-flex'>
+                                        <small class='me-3 hide'><i class='far fa-user text-primary me-2'></i>".$row['user_up']."</small>
+                                        <small><i class='far fa-calendar-alt text-primary me-2'></i>".tgl_i($row['tgl_up'])."</small>
                                 </div>
-                                <div class="p-4">
-                                    <div class="d-flex mb-3">
-                                        <small class="me-3 hide"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                        <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                                    </div>
-                                    <h4 class="mb-3">How to build a website</h4>
-                                    <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                                    <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: slideInUp;">
-                            <div class="blog-item bg-light rounded overflow-hidden">
-                                <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.PNG" alt="">
-                                </div>
-                                <div class="p-4">
-                                    <div class="d-flex mb-3">
-                                        <small class="me-3 hide"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                        <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                                    </div>
-                                    <h4 class="mb-3">How to build a website</h4>
-                                    <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                                    <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
-                            <div class="blog-item bg-light rounded overflow-hidden">
-                                <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.PNG" alt="">
-								</div>
-                                <div class="p-4">
-                                    <div class="d-flex mb-3">
-                                        <small class="me-3 hide"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                        <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                                    </div>
-                                    <h4 class="mb-3">How to build a website</h4>
-                                    <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                                    <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: slideInUp;">
-                            <div class="blog-item bg-light rounded overflow-hidden">
-                                <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.PNG" alt="">
-                                 </div>
-                                <div class="p-4">
-                                    <div class="d-flex mb-3">
-                                        <small class="me-3 hide"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                        <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                                    </div>
-                                    <h4 class="mb-3">How to build a website</h4>
-                                    <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                                    <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 wow slideInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
-                            <div class="blog-item bg-light rounded overflow-hidden">
-                                <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.PNG" alt="">
-                                </div>
-                                <div class="p-4">
-                                    <div class="d-flex mb-3">
-                                        <small class="me-3 hide"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                        <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                                    </div>
-                                    <h4 class="mb-3">How to build a website</h4>
-                                    <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                                    <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 wow slideInUp" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-                            <div class="blog-item bg-light rounded overflow-hidden">
-                                <div class="blog-img position-relative overflow-hidden">
-                                    <img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.PNG" alt="">
-                                </div>
-                                <div class="p-4">
-                                    <div class="d-flex mb-3">
-                                        <small class="me-3 hide"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                        <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                                    </div>
-                                    <h4 class="mb-3">How to build a website</h4>
-                                    <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                                    <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
+							</div>
+
+							<div class='blog-body'>
+								<h4 class='bl-title title title_berita '><a class='text-ponpes' href='".base_url()."berita/detail/".$row['seo']."'>".$row['title']."</a></h4>
+								<p class='title d_berita'>
+									".$row['detail']."
+								</p>
+								<a class='text-ponpes' href='".base_url()."berita/detail/".$row['seo']."' class='bl-continue'>Baca Selengkapnya</a>
+							</div>
+
+						</div>
+					</div> 
+					";
+					}?>
+                 
                         <div class="col-12 wow slideInUp" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;">
                             <nav aria-label="Page navigation">
                               <ul class="pagination pagination-lg m-0">
@@ -135,70 +68,29 @@
     
                 <!-- Sidebar Start -->
                 <div id="sidebar-berita" class="col-md-4">
-					<h5 class="section-title bg-white text-start text-merah pe-3 ms-3">Berita Terkini</h5>
+					<h5 class="section-title bg-white text-start text-merah pe-3 ms-3">Berita Populer</h5>
 					<div id="beritaSidebar" class="d-flex flex-column align-items-stretch flex-shrink-0 bg-white pb-5">
 						<div class="list-group list-group-flush border-bottom border-top">
-						
-						<a href="https://maarifnu.my.id/berita/detail/penyambutan-nauval-muzaki-purna-paskibra-musi-rawas-2024" class="list-group-item list-group-item-action py-3 lh-tight aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-							<div class="d-flex w-10 align-items-center justify-content-between">
-							<strong class="mb-1">Hari Guru Siswa MA Ma’arif Nu NUBAR Bersama Ibu Ria Ningsih, S.Pd</strong>
+						<?php foreach ($berita as $rows){
+						echo "
+						<a href='".base_url()."berita/detail/".$rows['seo']."' class='list-group-item list-group-item-action py-3 lh-tight aos-init aos-animate' data-aos='fade-up' data-aos-delay='100'>
+							<div class='d-flex w-10 align-items-center justify-content-between'>
+							<strong class='mb-1'>".$rows['title']."</strong>
 							</div>
 						<div>
-							<span><small><i>Kamis, 21 November 2024</i></small></span>
-							<span class="px-1">|</span>
-							<span><small><i>Oleh : Admin</i></small></span>
+							<span><small><i>".tgl_long($rows['tgl_up'])."</i></small></span>
+							<span class='px-1'>|</span>
+							<span><small><i>Oleh : ".$rows['user_up']."</i></small></span>
 						</div>
 						</a>
-						
-						<a href="https://maarifnu.my.id/berita/detail/penyambutan-nauval-muzaki-purna-paskibra-musi-rawas-2024" class="list-group-item list-group-item-action py-3 lh-tight aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-							<div class="d-flex w-10 align-items-center justify-content-between">
-							<strong class="mb-1">Pentas Seni Hari Guru MA MA'ARIF NU</strong>
-							</div>
-						<div>
-							<span><small><i>Rabu, 20 November 2024</i></small></span>
-							<span class="px-1">|</span>
-							<span><small><i>Oleh : Admin</i></small></span>
-						</div>
-						</a>
-						
-						<a href="https://maarifnu.my.id/berita/detail/penyambutan-nauval-muzaki-purna-paskibra-musi-rawas-2024" class="list-group-item list-group-item-action py-3 lh-tight aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-							<div class="d-flex w-10 align-items-center justify-content-between">
-							<strong class="mb-1">MA Ma’arif Nu Membawa 2 Tropi BLF UNPARI 2024 LLG</strong>
-							</div>
-						<div>
-							<span><small><i>Kamis, 12 September 2024</i></small></span>
-							<span class="px-1">|</span>
-							<span><small><i>Oleh : Admin</i></small></span>
-						</div>
-						</a>
-						
-						<a href="https://maarifnu.my.id/berita/detail/penyambutan-nauval-muzaki-purna-paskibra-musi-rawas-2024" class="list-group-item list-group-item-action py-3 lh-tight aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-							<div class="d-flex w-10 align-items-center justify-content-between">
-							<strong class="mb-1">2 Siswa MA Ma’arif Nu Mendapat Peringkat di KSM Tk. Kabupaten</strong>
-							</div>
-						<div>
-							<span><small><i>Selasa, 20 Agustus 2024</i></small></span>
-							<span class="px-1">|</span>
-							<span><small><i>Oleh : Admin</i></small></span>
-						</div>
-						</a>
-						
-						<a href="https://maarifnu.my.id/berita/detail/penyambutan-nauval-muzaki-purna-paskibra-musi-rawas-2024" class="list-group-item list-group-item-action py-3 lh-tight aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-							<div class="d-flex w-10 align-items-center justify-content-between">
-							<strong class="mb-1">Penyambutan Nauval Muzaki Purna Paskibra Musi Rawas 2024</strong>
-							</div>
-						<div>
-							<span><small><i>Senin, 19 Agustus 2024</i></small></span>
-							<span class="px-1">|</span>
-							<span><small><i>Oleh : Admin</i></small></span>
-						</div>
-						</a>
-												</div>
+						";
+						}?>
+					</div>
 					</div>
    
                     <!-- Image Start -->
                     <div class="mb-5 wow slideInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
-                        <img src="<?php echo base_url(); ?>assets/img/brosur.jpg" alt="" class="img-flui rounded">
+                        <a href="#"><img src="<?php echo base_url(); ?>assets/img/brosur.PNG" alt="" class="img-flui rounded"></a>
                     </div>
                     <!-- Image End -->
                 </div>

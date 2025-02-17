@@ -23,11 +23,8 @@ class Welcome extends CI_Controller {
 		$data['keywords'] = "MA Ma'arif NU Musi Rawas";
 		$data['description'] = "MA Ma'arif NU Musi Rawas adalah salah satu satuan pendidikan dengan jenjang MA di Marga Sakti, Kecamatan Muara Kelingi, Kabupaten Musi rawas";
 		$data['page'] = 'home';
-		$data['record'] = $this->model_app->view_where('berita',array('status'=>1))->row();
-		$data['prestasi'] = $this->model_app->view_where('prestasi',array('tingkat'=>1))->result_array();
-		$data['prof'] = $this->model_app->view_where('prestasi',array('tingkat'=>2))->result_array();
-		$data['nas'] = $this->model_app->view_where('prestasi',array('tingkat'=>3))->result_array();
-		$data['btr'] = $this->model_app->view_limit_data('berita','3')->result_array();
+		$data['berita'] = $this->model_app->view('berita')->result_array();
+		$data['eskulikuler'] = $this->model_app->view_2('eskul')->result_array();
 		//print_r($data['btr']);die();
 		$this->template->load('template','main',$data);
 	}
@@ -37,11 +34,6 @@ class Welcome extends CI_Controller {
 		$data['keywords'] = "MA Ma'arif NU Musi Rawas";
 		$data['description'] = "MA Ma'arif NU Musi Rawas adalah salah satu satuan pendidikan dengan jenjang MA di Marga Sakti, Kecamatan Muara Kelingi, Kabupaten Musi rawas";
 		$data['page'] = 'home';
-		$data['record'] = $this->model_app->view_where('berita',array('status'=>1))->row();
-		$data['prestasi'] = $this->model_app->view_where('prestasi',array('tingkat'=>1))->result_array();
-		$data['prof'] = $this->model_app->view_where('prestasi',array('tingkat'=>2))->result_array();
-		$data['nas'] = $this->model_app->view_where('prestasi',array('tingkat'=>3))->result_array();
-		$data['btr'] = $this->model_app->view_limit_data('berita','3')->result_array();
 		//print_r($data['btr']);die();
 		$this->template->load('template','sejarah',$data);
 	}
@@ -51,13 +43,19 @@ class Welcome extends CI_Controller {
 		$data['keywords'] = "MA Ma'arif NU Musi Rawas";
 		$data['description'] = "MA Ma'arif NU Musi Rawas adalah salah satu satuan pendidikan dengan jenjang MA di Marga Sakti, Kecamatan Muara Kelingi, Kabupaten Musi rawas";
 		$data['page'] = 'home';
-		$data['record'] = $this->model_app->view_where('berita',array('status'=>1))->row();
-		$data['prestasi'] = $this->model_app->view_where('prestasi',array('tingkat'=>1))->result_array();
-		$data['prof'] = $this->model_app->view_where('prestasi',array('tingkat'=>2))->result_array();
-		$data['nas'] = $this->model_app->view_where('prestasi',array('tingkat'=>3))->result_array();
-		$data['btr'] = $this->model_app->view_limit_data('berita','3')->result_array();
+		$data['berita'] = $this->model_app->view('berita')->result_array();
 		//print_r($data['btr']);die();
 		$this->template->load('template','berita',$data);
+	}
+	
+	public function psb()
+	{
+		$data['keywords'] = "MA Ma'arif NU Musi Rawas";
+		$data['description'] = "MA Ma'arif NU Musi Rawas adalah salah satu satuan pendidikan dengan jenjang MA di Marga Sakti, Kecamatan Muara Kelingi, Kabupaten Musi rawas";
+		$data['page'] = 'home';
+		$data['prov'] = $this->model_app->view_2('rb_provinsi')->result_array();
+		//print_r($data['btr']);die();
+		$this->template->load('template','psb',$data);
 	}
 	
 	
@@ -66,11 +64,6 @@ class Welcome extends CI_Controller {
 		$data['keywords'] = "MA Ma'arif NU Musi Rawas";
 		$data['description'] = "MA Ma'arif NU Musi Rawas adalah salah satu satuan pendidikan dengan jenjang MA di Marga Sakti, Kecamatan Muara Kelingi, Kabupaten Musi rawas";
 		$data['page'] = 'home';
-		$data['record'] = $this->model_app->view_where('berita',array('status'=>1))->row();
-		$data['prestasi'] = $this->model_app->view_where('prestasi',array('tingkat'=>1))->result_array();
-		$data['prof'] = $this->model_app->view_where('prestasi',array('tingkat'=>2))->result_array();
-		$data['nas'] = $this->model_app->view_where('prestasi',array('tingkat'=>3))->result_array();
-		$data['btr'] = $this->model_app->view_limit_data('berita','3')->result_array();
 		//print_r($data['btr']);die();
 		$this->template->load('template','kontak',$data);
 	}

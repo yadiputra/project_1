@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Pondok Pesantren Darusalamah</title>
+        <title>Pondok Pesantren Darussalamah</title>
 		<link href="<?php echo base_url(); ?>assets/ppds.png" rel="icon">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">

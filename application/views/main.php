@@ -39,29 +39,25 @@
 					<p style="text-align: justify;"><strong>Melampirkan :</strong></p>
                     <div class="row g-0 mb-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: zoomIn;">
-                            <h5 class="mb-3"><i class="fa fa-check text-ponpes me-3"></i>Fc Akta Kelahiran (1 lembar )</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-ponpes me-3"></i>Fc KK (1 lembar )</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-ponpes me-3"></i>Fc Ijazah (1 lembar )</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-ponpes me-3"></i>Print Out NISN (2 Lembar)</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-ponpes me-3"></i>Fc Ijazah (5 lembar )</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-ponpes me-3"></i>Fc KTP Orang Tua (5 lembar </h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-ponpes me-3"></i>Fc Akta Kelahiran (5 lembar )</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-ponpes me-3"></i>Fc KK (5 lembar )</h5>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
-                            <h5 class="mb-3"><i class="fa fa-check text-ponpes me-3"></i>Fc KTP Orang Tua (1 lembar )</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-ponpes me-3"></i>Pas Photo 3 x 4 (2 lembar )</h5>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeIn;">
-                        <div class="bg-ponpes d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
-                            <i class="fa fa-phone-alt text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h5 class="mb-2">Kontak</h5>
-                            <h4 class="mb-0"><a class="text-ponpes" href="tel:+6282186047830">0821-8604-7830</a></h4>
-                        </div>
+							<h5 class="mb-3"><i class="fa fa-check text-ponpes me-3"></i>Fc PIP/PKH (5 lembar )</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-ponpes me-3"></i>1 Map Gobi</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-ponpes me-3"></i>Materai 10.000 (5 lembar )</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-ponpes me-3"></i>Fc Piagam (5 lembar )</h5>
+                       
+						</div>
                     </div>
                     <a href="#" class="btn btn-success py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: zoomIn;">Daftar</a>
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn brosur" data-wow-delay="0.9s" src="<?php echo base_url(); ?>assets/img/brosur.jpg" style="visibility: visible; animation-delay: 0.9s; animation-name: zoomIn;">
+                        <a href="#"><img class="position-absolute w-100 h-100 rounded wow zoomIn brosur" data-wow-delay="0.9s" src="<?php echo base_url(); ?>assets/img/brosur.PNG" style="visibility: visible; animation-delay: 0.9s; animation-name: zoomIn;"><a>
                     </div>
                 </div>
             </div>
@@ -83,134 +79,33 @@
 
             <div class="row">
 
-                        <!-- Single blog Grid -->
-                        <div class="col-lg-4 col-md-12">
-                            <div class="blog-wrap-grid">
+            <!-- Single blog Grid -->
+			<?php foreach ($berita as $row){
+			echo "
+				<div class='col-lg-4 col-md-12'>
+				<div class='blog-wrap-grid'>
 
-                                <div class="blog-thumb">
-                                    <a href=""><img data-src="" class="img-fluid ls-is-cached lazyloaded" alt="" style="height: 200px;min-height: 200px;max-height: 200px;object-fit: cover;width: 100%" src="<?php echo base_url(); ?>assets/img/hadroh.PNG"></a>
-                                </div>
+					<div class='blog-thumb'>
+						<a href='".base_url()."berita/detail/".$row['seo']."'><img data-src='' class='img-fluid ls-is-cached lazyloaded' alt='' style='height: 250px;min-height: 250px;max-height: 250px;width: 100%' src='".base_url()."assets/img/".$row['img']."'></a>
+					</div>
 
-                                <div class="blog-info">
-                                    <span class="post-date"><i class="far fa-calendar-alt text-primary me-2"></i>04, Jan 2023 13:39</span>
-                                </div>
+					<div class='blog-info'>
+						<span class='post-date'><i class='far fa-calendar-alt text-primary me-2'></i>".tgl_long($row['tgl_up'])."</span>
+					</div>
 
-                                <div class="blog-body">
-                                    <h4 class="bl-title"><a class="text-ponpes" href="#">Pendaftaran Santri Baru Tahun Pelajaran 2025/2026</a></h4>
-                                    <p>
-                                        Pendaftaran Santri Baru Tahun Pelajaran 2025/2026 sudah dibuka Pendaftaran bisa dilakukan secara Offline maupun Online.
-                                    </p>
-                                    <a class="text-ponpes" href="#" class="bl-continue">Baca Selengkapnya</a>
-                                </div>
+					<div class='blog-body'>
+						<h4 class='bl-title title title_berita '><a class='text-ponpes' href='".base_url()."berita/detail/".$row['seo']."'>".$row['title']."</a></h4>
+						<p class='title d_berita'>
+							".$row['detail']."
+						</p>
+						<a class='text-ponpes' href='".base_url()."berita/detail/".$row['seo']."' class='bl-continue'>Baca Selengkapnya</a>
+					</div>
 
-                            </div>
-                        </div> <!-- Single blog Grid -->
-                        <div class="col-lg-4 col-md-12">
-                            <div class="blog-wrap-grid">
-
-                                <div class="blog-thumb">
-                                    <a href=""><img data-src="" class="img-fluid ls-is-cached lazyloaded" alt="" style="height: 200px;min-height: 200px;max-height: 200px;object-fit: cover;width: 100%" src="<?php echo base_url(); ?>assets/img/hadroh.PNG"></a>
-                                </div>
-
-                                <div class="blog-info">
-                                    <span class="post-date"><i class="far fa-calendar-alt text-primary me-2"></i>04, Jan 2023 13:39</span>
-                                </div>
-
-                                <div class="blog-body">
-                                    <h4 class="bl-title"><a class="text-ponpes" href="#">Pendaftaran Santri Baru Tahun Pelajaran 2025/2026</a></h4>
-                                    <p>
-                                        Pendaftaran Santri Baru Tahun Pelajaran 2025/2026 sudah dibuka Pendaftaran bisa dilakukan secara Offline maupun Online.
-                                    </p>
-                                    <a class="text-ponpes" href="#" class="bl-continue">Baca Selengkapnya</a>
-                                </div>
-
-                            </div>
-                        </div> <!-- Single blog Grid -->
-                        <div class="col-lg-4 col-md-12">
-                            <div class="blog-wrap-grid">
-
-                                <div class="blog-thumb">
-                                    <a href=""><img data-src="" class="img-fluid ls-is-cached lazyloaded" alt="" style="height: 200px;min-height: 200px;max-height: 200px;object-fit: cover;width: 100%" src="<?php echo base_url(); ?>assets/img/hadroh.PNG"></a>
-                                </div>
-
-                                <div class="blog-info">
-                                    <span class="post-date"><i class="far fa-calendar-alt text-primary me-2"></i>04, Jan 2023 13:39</span>
-                                </div>
-
-                                <div class="blog-body">
-                                    <h4 class="bl-title"><a class="text-ponpes" href="#">Pendaftaran Santri Baru Tahun Pelajaran 2025/2026</a></h4>
-                                    <p>
-                                        Pendaftaran Santri Baru Tahun Pelajaran 2025/2026 sudah dibuka Pendaftaran bisa dilakukan secara Offline maupun Online.
-                                    </p>
-                                    <a class="text-ponpes" href="#" class="bl-continue">Baca Selengkapnya</a>
-                                </div>
-
-                            </div>
-                        </div> <!-- Single blog Grid -->
-                        <div class="col-lg-4 col-md-12">
-                            <div class="blog-wrap-grid">
-
-                                <div class="blog-thumb">
-                                    <a href=""><img data-src="" class="img-fluid ls-is-cached lazyloaded" alt="" style="height: 200px;min-height: 200px;max-height: 200px;object-fit: cover;width: 100%" src="<?php echo base_url(); ?>assets/img/hadroh.PNG"></a>
-                                </div>
-
-                                <div class="blog-info">
-                                    <span class="post-date"><i class="far fa-calendar-alt text-primary me-2"></i>04, Jan 2023 13:39</span>
-                                </div>
-
-                                <div class="blog-body">
-                                    <h4 class="bl-title"><a class="text-ponpes" href="#">Pendaftaran Santri Baru Tahun Pelajaran 2025/2026</a></h4>
-                                    <p>
-                                        Pendaftaran Santri Baru Tahun Pelajaran 2025/2026 sudah dibuka Pendaftaran bisa dilakukan secara Offline maupun Online.
-                                    </p>
-                                    <a class="text-ponpes" href="#" class="bl-continue">Baca Selengkapnya</a>
-                                </div>
-
-                            </div>
-                        </div>
-						<div class="col-lg-4 col-md-12">
-                            <div class="blog-wrap-grid">
-
-                                <div class="blog-thumb">
-                                    <a href=""><img data-src="" class="img-fluid ls-is-cached lazyloaded" alt="" style="height: 200px;min-height: 200px;max-height: 200px;object-fit: cover;width: 100%" src="<?php echo base_url(); ?>assets/img/hadroh.PNG"></a>
-                                </div>
-
-                                <div class="blog-info">
-                                    <span class="post-date"><i class="far fa-calendar-alt text-primary me-2"></i>04, Jan 2023 13:39</span>
-                                </div>
-
-                                <div class="blog-body">
-                                    <h4 class="bl-title"><a class="text-ponpes" href="#">Pendaftaran Santri Baru Tahun Pelajaran 2025/2026</a></h4>
-                                    <p>
-                                        Pendaftaran Santri Baru Tahun Pelajaran 2025/2026 sudah dibuka Pendaftaran bisa dilakukan secara Offline maupun Online.
-                                    </p>
-                                    <a class="text-ponpes" href="#" class="bl-continue">Baca Selengkapnya</a>
-                                </div>
-
-                            </div>
-                        </div> <!-- Single blog Grid -->
-                        <div class="col-lg-4 col-md-12">
-                            <div class="blog-wrap-grid">
-
-                                <div class="blog-thumb">
-                                    <a href=""><img data-src="" class="img-fluid ls-is-cached lazyloaded" alt="" style="height: 200px;min-height: 200px;max-height: 200px;object-fit: cover;width: 100%" src="<?php echo base_url(); ?>assets/img/hadroh.PNG"></a>
-                                </div>
-
-                                <div class="blog-info">
-                                    <span class="post-date"><i class="far fa-calendar-alt text-primary me-2"></i>04, Jan 2023 13:39</span>
-                                </div>
-
-                                <div class="blog-body">
-                                    <h4 class="bl-title"><a class="text-ponpes" href="#">Pendaftaran Santri Baru Tahun Pelajaran 2025/2026</a></h4>
-                                    <p>
-                                        Pendaftaran Santri Baru Tahun Pelajaran 2025/2026 sudah dibuka Pendaftaran bisa dilakukan secara Offline maupun Online.
-                                    </p>
-                                    <a class="text-ponpes" href="#" class="bl-continue">Baca Selengkapnya</a>
-                                </div>
-
-                            </div>
-                        </div>
-                
+				</div>
+			</div> 
+			";
+			}?>
+                     
             </div>
       </div>
         </div>
@@ -219,101 +114,28 @@
 		<div class="container py-3">
                 <div class="section-title mb-4 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                     <div class="sub-style">
-                        <h4 class="sub-title px-3 mb-0">Ekstarkulikuler</h4>
+                        <h4 class="sub-title px-3 mb-0">Ekstrakulikuler</h4>
                     </div>
                     <p class="mb-0">Kegiatan ekstrakurikuler sebagai wadah pengembangan potensi peserta didik yang dapat memberikan dampak positif dalam non-pelajaran formal. </p>
                 </div>
-                <div class="row g-4 justify-content-center">					 
-						<div class="col-md-6 col-lg-4 col-xl-3 wow slideInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: slideInUp;">
-							<div class="blog-item bg-light rounded overflow-hidden">
-								<div class="blog-img position-relative overflow-hidden py-3 px-3">
-									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.PNG" alt="">
-									<a class="eskul position-absolute top-0 start-0 text-white py-2 px-4" href="">Eskul</a>
+                <div class="row g-4 justify-content-center">
+						<?php foreach ($eskulikuler as $rows){
+						echo "
+							<div class='col-md-6 col-lg-4 col-xl-3 wow slideInUp' data-wow-delay='0.6s' style='visibility: visible; animation-delay: 0.6s; animation-name: slideInUp;'>
+							<div class='blog-item bg-light rounded overflow-hidden'>
+								<div class='blog-img position-relative overflow-hidden py-3 px-3'>
+									<img class='img-flui' src='".base_url()."assets/img/".$rows['img']."' alt=''>
+									<a class='eskul position-absolute top-0 start-0 text-white py-2 px-4' href=''>Eskul</a>
 								</div>
-								<div class="text-center">
-									<h4 class="title_content mb-2">Menjahit</h4>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 col-lg-4 col-xl-3 wow slideInUp" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: slideInUp;">
-							<div class="blog-item bg-light rounded overflow-hidden">
-								<div class="blog-img position-relative overflow-hidden py-3 px-3">
-									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.PNG" alt="">
-									<a class="eskul position-absolute top-0 start-0 text-white py-2 px-4" href="">Eskul</a>
-								</div>
-								<div class="text-center">
-									<h4 class="title_content mb-2">Kaligrafi</h4>
-								 </div>
-							</div>
-						</div> 
-						<div class="col-md-6 col-lg-4 col-xl-3 wow slideInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: slideInUp;">
-							<div class="blog-item bg-light rounded overflow-hidden">
-								<div class="blog-img position-relative overflow-hidden py-3 px-3">
-									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.PNG" alt="">
-									<a class="eskul position-absolute top-0 start-0 text-white py-2 px-4" href="">Eskul</a>
-								</div>
-								<div class="text-center">
-									<h4 class="title_content mb-2">Hadroh</h4>
+								<div class='text-center'>
+									<h4 class='title_content mb-2'>".$rows['nama']."</h4>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-lg-4 col-xl-3 wow slideInUp" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: slideInUp;">
-							<div class="blog-item bg-light rounded overflow-hidden">
-								<div class="blog-img position-relative overflow-hidden py-3 px-3">
-									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/silat.PNG" alt="">
-									<a class="eskul position-absolute top-0 start-0 text-white py-2 px-4" href="">Eskul</a>
-								</div>
-								<div class="text-center">
-									<h4 class="title_content mb-2">Pencak Silat</h4>
-								 </div>
-							</div>
-						</div> 
-						<div class="col-md-6 col-lg-4 col-xl-3 wow slideInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: slideInUp;">
-							<div class="blog-item bg-light rounded overflow-hidden">
-								<div class="blog-img position-relative overflow-hidden py-3 px-3">
-									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/hadroh.PNG" alt="">
-									<a class="eskul position-absolute top-0 start-0 text-white py-2 px-4" href="">Eskul</a>
-								</div>
-								<div class="text-center">
-									<h4 class="title_content mb-2">Pramuka</h4>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 col-lg-4 col-xl-3 wow slideInUp" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: slideInUp;">
-							<div class="blog-item bg-light rounded overflow-hidden">
-								<div class="blog-img position-relative overflow-hidden py-3 px-3">
-									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/hadroh.PNG" alt="">
-									<a class="eskul position-absolute top-0 start-0 text-white py-2 px-4" href="">Eskul</a>
-								</div>
-								<div class="text-center">
-									<h4 class="title_content mb-2">Drumband</h4>
-								 </div>
-							</div>
-						</div> 
-						<div class="col-md-6 col-lg-4 col-xl-3 wow slideInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: slideInUp;">
-							<div class="blog-item bg-light rounded overflow-hidden">
-								<div class="blog-img position-relative overflow-hidden py-3 px-3">
-									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/hadroh.PNG" alt="">
-									<a class="eskul position-absolute top-0 start-0 text-white py-2 px-4" href="">Eskul</a>
-								</div>
-								<div class="text-center">
-									<h4 class="title_content mb-2">Olahraga</h4>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 col-lg-4 col-xl-3 wow slideInUp" data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: slideInUp;">
-							<div class="blog-item bg-light rounded overflow-hidden">
-								<div class="blog-img position-relative overflow-hidden py-3 px-3">
-									<img class="img-flui" src="<?php echo base_url(); ?>assets/img/hadroh.PNG" alt="">
-									<a class="eskul position-absolute top-0 start-0 text-white py-2 px-4" href="">Eskul</a>
-								</div>
-								<div class="text-center">
-									<h4 class="title_content mb-2">Komputer</h4>
-								 </div>
-							</div>
-						</div> 
+						";
+						}?>
+						
                     </div>
-                   
                  </div>
             </div>
 		

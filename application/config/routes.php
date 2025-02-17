@@ -54,6 +54,7 @@ $route = array(
 	'sejarah' => 'welcome/sejarah',
 	'berita' => 'welcome/berita',
 	'kontak' => 'welcome/kontak',
+	'pspdb' => 'welcome/psb',
    
 );
 $route['404_override'] = '';

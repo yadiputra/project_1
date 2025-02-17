@@ -182,8 +182,14 @@ h5, .h5 {
 width:390px;
 height:240px;
 }
+.flex_in {
+  display: inherit;
+}
 }
  @media only screen and (max-width: 899px) {
+	.flex_in {
+	  display: inherit;
+	}
    .w-10 {
 	  width: 100% !important;
 	}

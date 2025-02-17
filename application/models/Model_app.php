@@ -2,12 +2,11 @@
 
 class Model_app extends CI_model{
     public function view($table){
+		$this->db->order_by('kod','DESC');
         return $this->db->get($table);
     }
 
-	public function view_2($table, $data){
-		$this->db->distinct();
-		$this->db->select($data);
+	public function view_2($table){
         return $this->db->get($table);
     }
 

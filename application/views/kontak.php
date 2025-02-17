@@ -9,11 +9,11 @@
                    <div class="col-lg-12">
                     <div class="pb-5 d-flex align-items-center wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
                         <div class="bg-ponpes d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
-                            <i class="fa fa-phone-alt text-white"></i>
+                            <i class="fab fa-whatsapp text-white"></i>
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Telepon :</h5>
-                            <h4 class="text-ponpes mb-0">0821-8270-0873</h4>
+                            <a href="https://api.whatsapp.com/send/?phone=6282182700873" target="_blank"><h4 class="text-ponpes mb-0">0821-8270-0873</h4></a>
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Email :</h5>
-                            <h4 class="text-ponpes mb-0">admin@ppdsdarusalamah.com</h4>
+                            <h4 class="text-ponpes mb-0">admin@darussalamah.ponpes.id</h4>
                         </div>
                     </div>
                 </div>

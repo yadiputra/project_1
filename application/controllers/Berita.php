@@ -47,8 +47,9 @@ class Berita extends CI_Controller {
 		$data['page'] = 'berita';
 		$data['keywords'] = "MA Ma'arif NU Musi Rawas";
 		$data['description'] = "MA Ma'arif NU Musi Rawas";
-		$data['pop'] = $this->model_app->view_limit_data('berita','5')->result_array();
+		$data['berita'] = $this->model_app->view_limit_data('berita','5')->result_array();
 		$data['record'] = $this->model_app->view_where('berita',array('seo'=>$this->uri->segment('3')))->row();
+		//print_r($data['record']);die();
 		$this->template->load('template','detail',$data);
 	}
 }
