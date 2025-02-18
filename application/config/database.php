@@ -76,9 +76,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'username' => 'anik6619',
-	'password' => 'bjTSD3YuG7hK39',
-	'database' => 'anik6619_ma',
+	'username' => 'darq2997',
+	'password' => 'habU3ESqYmZx27',
+	'database' => 'darq2997_ponpes',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
