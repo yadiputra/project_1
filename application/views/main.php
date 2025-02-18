@@ -57,7 +57,7 @@
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <a href="#"><img class="position-absolute w-100 h-100 rounded wow zoomIn brosur" data-wow-delay="0.9s" src="<?php echo base_url(); ?>assets/img/brosur.PNG" style="visibility: visible; animation-delay: 0.9s; animation-name: zoomIn;"><a>
+                        <a href="#"><img class="position-absolute w-100 h-100 rounded wow zoomIn brosur" data-wow-delay="0.9s" src="<?php echo base_url(); ?>assets/img/brosur.png" style="visibility: visible; animation-delay: 0.9s; animation-name: zoomIn;"><a>
                     </div>
                 </div>
             </div>
