@@ -9,6 +9,8 @@
         <meta content="" name="keywords">
         <meta content="" name="description">
 
+		<meta name="google-site-verification" content="MBvpLMaT-KJGr1Eoo8PoUVdCu8DM9P8k-kUTqz6sqcA" />
+		
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
